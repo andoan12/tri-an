@@ -7,16 +7,24 @@ const name = getQueryParam("name");
 
 // Danh sách mã code + màu trái tim
 const codes = {
-    "Nguyen An": { code: "1234", color: "red" },
-    "Tran Binh": { code: "5678", color: "blue" },
-    "Le Cuc": { code: "4321", color: "green" },
-    "Pham Dai": { code: "8765", color: "yellow" },
-    "Hoang Em": { code: "1111", color: "purple" },
-    "Vo Giao": { code: "2222", color: "orange" },
-    "Do Hanh": { code: "3333", color: "pink" },
-    "Bui Khanh": { code: "4444", color: "cyan" },
-    "Nguyen Lam": { code: "5555", color: "magenta" },
-    "Tran Minh": { code: "6666", color: "lime" }
+    "Ngô Đình Gia An": { code: "1001", color: "red" },
+    "Võ Nguyễn Thuỳ Dương": { code: "1002", color: "blue" },
+    "Phạm Thanh Hà": { code: "1003", color: "green" },
+    "Nguyễn Gia Hân (6/10)": { code: "1004", color: "yellow" },
+    "Nguyễn Gia Hân (1/9)": { code: "1005", color: "purple" },
+    "Ngô Thuỵ Hà Khanh": { code: "1006", color: "orange" },
+    "Nguyễn Như Vân Khánh": { code: "1007", color: "pink" },
+    "Huỳnh Nguyễn Gia Linh": { code: "1008", color: "cyan" },
+    "Phạm Khánh Linh": { code: "1009", color: "magenta" },
+    "Ngô Huỳnh Xuân Mai": { code: "1010", color: "lime" },
+    "Nguyễn Cát Khánh Mai": { code: "1011", color: "gold" },
+    "Khương Thuỵ Ánh Minh": { code: "1012", color: "coral" },
+    "Lý Quế Minh": { code: "1013", color: "turquoise" },
+    "Phan Trịnh Ái Như": { code: "1014", color: "indigo" },
+    "Trần Nguyễn Uyên Phương": { code: "1015", color: "salmon" },
+    "Nguyễn Hoàng Mai Thảo": { code: "1016", color: "teal" },
+    "Phan Ngọc Trân": { code: "1017", color: "violet" },
+    "Tăng Tuệ Văn": { code: "1018", color: "navy" }
 };
 
 document.getElementById("verifyBtn").addEventListener("click", function () {
