@@ -23,7 +23,7 @@ const codes = {
     "Phan Trịnh Ái Như": { code: "1014", color: "indigo" },
     "Trần Nguyễn Uyên Phương": { code: "1015", color: "salmon" },
     "Nguyễn Hoàng Mai Thảo": { code: "1016", color: "teal" },
-    "Phan Ngọc Trân": { code: "1017", color: "violet" },
+    "Lê Ngọc Trân": { code: "1017", color: "violet" },
     "Tăng Tuệ Văn": { code: "1018", color: "navy" }
 };
 
