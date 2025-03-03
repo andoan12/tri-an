@@ -7,24 +7,24 @@ const name = getQueryParam("name");
 
 // Danh sách mã code + màu trái tim
 const codes = {
-    "Ngô Đình Gia An": { code: "1001", color: "red" },
-    "Võ Nguyễn Thuỳ Dương": { code: "1002", color: "blue" },
-    "Phạm Thanh Hà": { code: "1003", color: "green" },
-    "Nguyễn Gia Hân (6/10)": { code: "1004", color: "yellow" },
-    "Nguyễn Gia Hân (1/9)": { code: "1005", color: "purple" },
-    "Ngô Thuỵ Hà Khanh": { code: "1006", color: "orange" },
+    "Ngô Đình Gia An": { code: "", color: "red" },
+    "Võ Nguyễn Thuỳ Dương": { code: "9569", color: "blue" },
+    "Phạm Thanh Hà": { code: "7510", color: "green" },
+    "Nguyễn Gia Hân (6/10)": { code: "1835", color: "yellow" },
+    "Nguyễn Gia Hân (1/9)": { code: "4062", color: "purple" },
+    "Ngô Thuỵ Hà Khanh": { code: "", color: "orange" },
     "Nguyễn Như Vân Khánh": { code: "1007", color: "pink" },
-    "Huỳnh Nguyễn Gia Linh": { code: "1008", color: "cyan" },
-    "Phạm Khánh Linh": { code: "1009", color: "magenta" },
-    "Ngô Huỳnh Xuân Mai": { code: "1010", color: "lime" },
-    "Nguyễn Cát Khánh Mai": { code: "1011", color: "gold" },
-    "Khương Thuỵ Ánh Minh": { code: "1012", color: "coral" },
-    "Lý Quế Minh": { code: "1013", color: "turquoise" },
-    "Phan Trịnh Ái Như": { code: "1014", color: "indigo" },
-    "Trần Nguyễn Uyên Phương": { code: "1015", color: "salmon" },
-    "Nguyễn Hoàng Mai Thảo": { code: "1016", color: "teal" },
-    "Lê Ngọc Trân": { code: "1017", color: "violet" },
-    "Tăng Tuệ Văn": { code: "1018", color: "navy" }
+    "Huỳnh Nguyễn Gia Linh": { code: "", color: "cyan" },
+    "Phạm Khánh Linh": { code: "", color: "magenta" },
+    "Ngô Huỳnh Xuân Mai": { code:"3840", color: "lime" },
+    "Nguyễn Cát Khánh Mai": { code: "7777", color: "gold" },
+    "Khương Thuỵ Ánh Minh": { code: "5436", color: "coral" },
+    "Lý Quế Minh": { code: "2745", color: "turquoise" },
+    "Phan Trịnh Ái Như": { code: "", color: "indigo" },
+    "Trần Nguyễn Uyên Phương": { code: "", color: "salmon" },
+    "Nguyễn Hoàng Mai Thảo": { code: "", color: "teal" },
+    "Lê Ngọc Trân": { code: "", color: "violet" },
+    "Tăng Tuệ Văn": { code: "1952", color: "navy" }
 };
 
 document.getElementById("verifyBtn").addEventListener("click", function () {
