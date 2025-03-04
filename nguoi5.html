@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lời Chúc - Ngô Đình Gia An</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: red;">Nhập đúng mã để có bất ngờ nè</h1>
+        <input type="number" id="codeInput" placeholder="Nhập mã 4 số" maxlength="4">
+        <button id="verifyBtn">Xác nhận</button>
+        <p id="errorMessage"></p>
+
+        <h1 id="greeting" style="display: none;">Mày và Thùy Dương đều làm tao bất ngờ vì sự nhiệt tình của mình đó! Hai đứa mày lúc nào cũng sẵn sàng chi tiền để có thể làm chuẩn bị những món quà cho mọi người vào nhưng dịp đặc biệt. Cũng như Dương, mày làm tao có thêm động lực để giúp đỡ mọi người! Tao cũng xin lỗi vì hay trêu mày là “Bê” hay “Bò”, tao thấy mày cũng như mọi đứa con gái khác thôi, chẳng có gì giống “Bò” hết! Cảm ơn mày rất nhiều vì những món quà! Nhân ngày 8/3 này, chúc mày thật nhiều sức khỏe, luôn vui vẻ và thật xinh đẹp nha!</h1>
+        <a href="index.html">Quay lại</a>
+    </div>
+
+    <script>
+        document.getElementById("verifyBtn").addEventListener("click", function () {
+            const inputCode = document.getElementById("codeInput").value;
+            if (inputCode === "1835") {
+                document.getElementById("greeting").style.display = "block";
+                document.getElementById("codeInput").style.display = "none";
+                document.getElementById("verifyBtn").style.display = "none";
+                document.getElementById("errorMessage").innerText = "";
+            } else {
+                document.getElementById("errorMessage").innerText = "Mã code không đúng, vui lòng thử lại!";
+            }
+        });
+    </script>
+</body>
+</html>

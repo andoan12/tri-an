@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lời Chúc - Ngô Đình Gia An</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: red;">Nhập đúng mã để có bất ngờ nè</h1>
+        <input type="number" id="codeInput" placeholder="Nhập mã 4 số" maxlength="4">
+        <button id="verifyBtn">Xác nhận</button>
+        <p id="errorMessage"></p>
+
+        <h1 id="greeting" style="display: none;">Mày là một con người khá kỳ lạ với tao khi mới bước vào lớp. Mày cực kì hòa đồng và vui vẻ nhưng lại có những lúc chỉ ngồi một mình vào giờ ra chơi. Mày là người bạn đầu tiên của tao trong lớp đó nha! Tao thực sự rất ngưỡng mộ kĩ năng tiếng Anh của mày đó! Nhân ngày 8/3 này, chúc mày thật nhiều sức khỏe, luôn vui vẻ và thật xinh đẹp nha!</h1>
+        <a href="index.html">Quay lại</a>
+    </div>
+
+    <script>
+        document.getElementById("verifyBtn").addEventListener("click", function () {
+            const inputCode = document.getElementById("codeInput").value;
+            if (inputCode === "7510") {
+                document.getElementById("greeting").style.display = "block";
+                document.getElementById("codeInput").style.display = "none";
+                document.getElementById("verifyBtn").style.display = "none";
+                document.getElementById("errorMessage").innerText = "";
+            } else {
+                document.getElementById("errorMessage").innerText = "Mã code không đúng, vui lòng thử lại!";
+            }
+        });
+    </script>
+</body>
+</html>
