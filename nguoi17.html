@@ -16,7 +16,7 @@
         <h1 id="greeting" style="display: none;">Chào! Lời đầu tiên, chúc Trân 8/3 vui vẻ, nụ cười luôn trên môi, luôn vui vẻ bên người thân bạn bè nhé! Thật ra tao cũng chỉ mới vào lớp này được hơn 1 học kỳ nhưng tao đã thấy sự nỗ lực của mày, sự cố gắng không ngừng nghỉ ở các bài tập cá nhân, nhóm. Tao thấy mày rất hòa đồng thân thiện với mọi người xung quanh.
             Tao chúc mày luôn giữ vững tinh thần, luôn chiến đấu không ngừng để vượt qua khó khăn
             </h1>
-            <h2>anh Dev đjep zai</h2>
+            <h2 id="author">anh Dev đjep zai</h2>
         <a href="index.html">Quay lại</a>
     </div>
 
@@ -25,6 +25,7 @@
             const inputCode = document.getElementById("codeInput").value;
             if (inputCode === "4032") {
                 document.getElementById("greeting").style.display = "block";
+                document.getElementById("author").style.display = "block";
                 document.getElementById("codeInput").style.display = "none";
                 document.getElementById("verifyBtn").style.display = "none";
                 document.getElementById("errorMessage").innerText = "";

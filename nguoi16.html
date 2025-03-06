@@ -16,7 +16,7 @@
         <h1 id="greeting" style="display: none;">Xin chào cô giáo Thảo, đúng rồi nhắc đến con gái trong lớp có thể mày luôn là cái tên nổi bật xuất hiện trong đầu tao, cái đặc biệt đến từ tính cách và những việc mày làm. Thật sự thì tao thấy mày rất quậy cũng hơi tục nhưng mà rất vui vẻ, mày là 1 trong những người đã đóng góp rất nhiều cho niềm vui của lớp này bằng những trò chơi và các câu đùa của mày, hơn nữa tao chắc chắn mày là một phần không thể thiếu của các chị em trong lớp đâu đúng không (◍•ᴗ•◍)?
             Không có thù ghét không còn ác cảm vào khoảnh khắc này nữa, 8/3 rồi chỉ mong Thảo sẽ luôn cố gắng trong học tập, chú ý đến hành động và lời nói của bản thân để có thể đùa giỡn một cách tinh tế hơn, luôn xinh đẹp và hạnh phúc bên gia đình người thân và đặc biệt là tập thể 8a6 (✯ᴗ✯)!
             </h1>
-            <h2>Thành Vanh Ẩn Diên #4
+            <h2 id="author">Thành Vanh Ẩn Diên #4
 
             </h2>
         <a href="index.html">Quay lại</a>
@@ -27,6 +27,7 @@
             const inputCode = document.getElementById("codeInput").value;
             if (inputCode === "1139") {
                 document.getElementById("greeting").style.display = "block";
+                document.getElementById("author").style.display = "block";
                 document.getElementById("codeInput").style.display = "none";
                 document.getElementById("verifyBtn").style.display = "none";
                 document.getElementById("errorMessage").innerText = "";
